@@ -35,3 +35,4 @@ exec(`git for-each-ref --sort=-creatordate --format="%(refname:short)" "refs/tag
         process.exit(0);
     });
 });
+
